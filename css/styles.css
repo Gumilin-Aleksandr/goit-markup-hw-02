@@ -24,11 +24,11 @@ a {
   color: #4d5ae5;
 }
 
-.header-logo span {
+.header-part {
   color: #2e2f42;
 }
 
-.footer-logo span {
+.footer-part {
   color: #f4f4fd;
 }
 
@@ -78,24 +78,23 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
 }
 
 .main-btn:hover,
 .main-btn:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 
 .sections-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .sections-subtitle {
@@ -118,8 +117,6 @@ a {
 }
 
 .team-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   text-align: center;
 }
